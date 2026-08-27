@@ -1,0 +1,142 @@
+# Restaurant Revenue Analysis
+
+## Project Overview
+
+This project analyzes restaurant business data to identify factors affecting revenue and customer demand. The objective is to understand restaurant performance, identify revenue-generating factors, and provide data-driven recommendations to increase revenue without expanding the restaurant.
+
+## Business Problem
+
+The restaurant wants to increase its revenue without opening new locations or significantly expanding its existing infrastructure.
+
+The analysis focuses on understanding sales patterns, customer preferences, restaurant performance, and other business factors that can help improve revenue using existing resources.
+
+## Objectives
+
+- Analyze restaurant revenue and sales performance.
+- Identify high-performing and low-performing categories.
+- Understand customer and order patterns.
+- Identify factors influencing revenue.
+- Analyze restaurant performance using data.
+- Provide actionable recommendations to increase revenue.
+- Create visualizations and dashboards for business insights.
+
+## Dataset
+
+The project uses restaurant-related business data containing information about restaurant transactions, sales, customers, products/categories, and other relevant attributes.
+
+The dataset was cleaned and prepared before performing exploratory data analysis.
+
+## Tools and Technologies
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- SQL
+- Excel
+- Tableau
+- Jupyter Notebook
+
+## Project Workflow
+
+1. Data Collection
+2. Data Understanding
+3. Data Cleaning
+4. Exploratory Data Analysis
+5. Statistical Analysis
+6. SQL Analysis
+7. Data Visualization
+8. Dashboard Creation
+9. Business Insights
+10. Recommendations
+
+## Data Cleaning
+
+The dataset was checked for:
+
+- Missing values
+- Duplicate records
+- Incorrect data types
+- Inconsistent values
+- Outliers
+- Invalid or unnecessary records
+
+The cleaned dataset was then used for further analysis.
+
+## Exploratory Data Analysis
+
+The analysis includes:
+
+- Revenue analysis
+- Sales performance analysis
+- Category-wise analysis
+- Customer/order analysis
+- Trend analysis
+- Distribution analysis
+- Correlation analysis
+- Outlier analysis
+
+## Key Insights
+
+The analysis identifies:
+
+- Important revenue-generating categories.
+- High-performing restaurant segments.
+- Areas with potential for revenue improvement.
+- Customer and sales patterns.
+- Opportunities to improve existing restaurant operations.
+
+## Business Recommendations
+
+Based on the analysis, recommendations are provided to increase revenue using existing resources rather than expanding the restaurant.
+
+Possible strategies include:
+
+- Promoting high-performing products.
+- Improving sales of profitable categories.
+- Using targeted offers during low-demand periods.
+- Optimizing menu/product placement.
+- Focusing on high-value customers.
+- Improving operational efficiency.
+- Using data-driven marketing campaigns.
+
+## Dashboard
+
+A Tableau dashboard was created to provide an interactive view of restaurant performance and revenue-related metrics.
+
+The dashboard helps users monitor:
+
+- Revenue
+- Sales performance
+- Product/category performance
+- Customer trends
+- Restaurant performance
+
+## Project Structure
+
+```text
+restaurant-revenue-analysis/
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── notebooks/
+│   └── Restaurant_Revenue_Analysis.ipynb
+│
+├── sql/
+│   └── restaurant_analysis.sql
+│
+├── reports/
+│   └── Restaurant_Revenue_Analysis_Report.pdf
+│
+├── dashboards/
+│   ├── Restaurant_Revenue_Dashboard.twb
+│   └── dashboard_screenshots/
+│
+├── images/
+├── requirements.txt
+├── .gitignore
+├── LICENSE
+└── README.md
