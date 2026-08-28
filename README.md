@@ -8,7 +8,7 @@ The main objective is to identify data-driven opportunities to **increase restau
 
 ## Business Problem
 
-The restaurant wants to improve its revenue using its existing resources and operations. The analysis helps identify which products, categories, customer segments, and sales patterns contribute most to revenue and where improvements can be made.
+The restaurant wants to improve its revenue using its existing resources and operations. The analysis helps identify which products, categories, customer segments, and sales patterns contribute most to the business.
 
 ## Objectives
 
@@ -176,3 +176,7 @@ The analysis focuses on improving revenue through **data-driven strategies using
 
 PGP in Data Science with Gen AI
 Great Learning
+
+---
+
+*Last updated: August 28, 2026*
