@@ -1,0 +1,61 @@
+from pathlib import Path
+import subprocess
+
+repository_url = "https://github.com/sugumar338-ux/Restaurant-Revenue-Analysis-Case-Study-Project---Great-Learning.git"
+destination = Path("restaurant-revenue-analysis")
+
+if destination.exists():
+    print(f"Destination already exists: {destination.resolve()}")
+else:
+    subprocess.run(["git", "clone", repository_url, str(destination)], check=True)
+
+from pathlib import Path
+import subprocess
+
+repository_url = (
+    "https://github.com/sugumar338-ux/"
+    "Restaurant-Revenue-Analysis-Case-Study-Project---Great-Learning.git"
+)
+destination = Path("restaurant-revenue-analysis")
+
+if destination.exists():
+    print(f"Destination already exists: {destination.resolve()}")
+else:
+    subprocess.run(
+        ["git", "clone", repository_url, str(destination)],
+        check=True
+    )
+
+from pathlib import Path
+import sys
+
+print(f"Python {sys.version.split()[0]} is ready")
+print(f"Working directory: {Path.cwd()}")
+
+def compile_and_run(source: str) -> None:
+    """Compile and execute Python source in the notebook's shared namespace."""
+    compiled = compile(source, filename="<notebook-input>", mode="exec")
+    exec(compiled, globals())
+
+
+code = """
+message = "Jupyter is ready"
+print(message)
+"""
+
+compile_and_run(code)
+
+# Type your Python code here, then run this cell.
+# Example:
+numbers = [1, 2, 3, 4, 5]
+sum(numbers)
+
+## Save changes to GitHub
+
+Run these commands in the VS Code Terminal, not in a Python cell:
+
+```bash
+git add .
+git commit -m "Save notebook updates"
+git push origin main
+```
